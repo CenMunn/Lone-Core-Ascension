@@ -1,0 +1,33 @@
+{
+  "info": {
+    "name": "独核通天 实际图片任务查询验收",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "GET 同一真实万相图片任务",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer {{image_key}}"
+          }
+        ],
+        "url": "{{image_base}}/tasks/{{task_id}}"
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"HTTP 200\",()=>pm.response.to.have.status(200));",
+              "pm.test(\"Task succeeded\",()=>pm.expect(pm.response.json().output.task_status).to.eql(\"SUCCEEDED\"));"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

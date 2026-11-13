@@ -1,0 +1,774 @@
+[
+  {
+    "id": "repair_knife",
+    "name": "维修刀",
+    "slot": "weapon",
+    "stats": {
+      "attack": 2
+    },
+    "description": "陆凌霄旧日维修工具。",
+    "recipe": {},
+    "unlock_material": null
+  },
+  {
+    "id": "repair_jacket",
+    "name": "旧维修夹克",
+    "slot": "chest",
+    "stats": {
+      "defense": 1
+    },
+    "description": "经过多次修补的工作夹克。",
+    "recipe": {},
+    "unlock_material": null
+  },
+  {
+    "id": "black_iron_armor",
+    "name": "黑铁核心护甲",
+    "slot": "chest",
+    "stats": {
+      "defense": 8,
+      "max_hp": 30
+    },
+    "description": "黑铁分片护甲，核心槽能够稳固能量流。",
+    "recipe": {
+      "material": 3,
+      "clean_core": 2
+    },
+    "unlock_material": null
+  },
+  {
+    "id": "iron_king_chest",
+    "name": "铁脊王甲",
+    "slot": "chest",
+    "stats": {
+      "defense": 28,
+      "max_hp": 150
+    },
+    "description": "以铁脊甲皇碎片铸成，抵御沉重冲击。",
+    "special": "每次受到敌方攻击时额外减伤10%。",
+    "recipe": {
+      "iron_king_fragment": 1,
+      "material": 8
+    },
+    "unlock_material": "iron_king_fragment",
+    "boss_id": "tower_10"
+  },
+  {
+    "id": "gravity_boots",
+    "name": "折域战靴",
+    "slot": "feet",
+    "stats": {
+      "defense": 55,
+      "attack": 20
+    },
+    "description": "以规则碎片减轻重力束缚。",
+    "special": "抵消敌方施加的行动迟滞。",
+    "recipe": {
+      "gravity_fragment": 1,
+      "material": 12
+    },
+    "unlock_material": "gravity_fragment",
+    "boss_id": "tower_80"
+  },
+  {
+    "id": "time_amulet",
+    "name": "时隙锚饰",
+    "slot": "accessory",
+    "stats": {
+      "max_energy": 80
+    },
+    "description": "稳定局部时间流动的锚饰。",
+    "special": "每场战斗首次受到致命伤时保留1点生命。",
+    "recipe": {
+      "time_fragment": 1,
+      "material": 15
+    },
+    "unlock_material": "time_fragment",
+    "boss_id": "tower_90"
+  },
+  {
+    "id": "iron_basic_weapon",
+    "name": "铁骨战刃",
+    "slot": "weapon",
+    "stats": {
+      "attack": 8
+    },
+    "description": "以重甲精英甲虫的材料打造，提供稳定的基础属性。",
+    "special": "无特殊能力",
+    "recipe": {
+      "elite_iron_shell": 1,
+      "material": 2
+    },
+    "unlock_material": "elite_iron_shell",
+    "elite_id": "elite_iron_beetle"
+  },
+  {
+    "id": "iron_basic_head",
+    "name": "铁骨头盔",
+    "slot": "head",
+    "stats": {
+      "defense": 3
+    },
+    "description": "以重甲精英甲虫的材料打造，提供稳定的基础属性。",
+    "special": "无特殊能力",
+    "recipe": {
+      "elite_iron_shell": 1,
+      "material": 2
+    },
+    "unlock_material": "elite_iron_shell",
+    "elite_id": "elite_iron_beetle"
+  },
+  {
+    "id": "iron_basic_chest",
+    "name": "铁骨护甲",
+    "slot": "chest",
+    "stats": {
+      "defense": 5,
+      "max_hp": 20
+    },
+    "description": "以重甲精英甲虫的材料打造，提供稳定的基础属性。",
+    "special": "无特殊能力",
+    "recipe": {
+      "elite_iron_shell": 1,
+      "material": 2
+    },
+    "unlock_material": "elite_iron_shell",
+    "elite_id": "elite_iron_beetle"
+  },
+  {
+    "id": "iron_basic_hands",
+    "name": "铁骨护手",
+    "slot": "hands",
+    "stats": {
+      "attack": 3,
+      "defense": 1
+    },
+    "description": "以重甲精英甲虫的材料打造，提供稳定的基础属性。",
+    "special": "无特殊能力",
+    "recipe": {
+      "elite_iron_shell": 1,
+      "material": 2
+    },
+    "unlock_material": "elite_iron_shell",
+    "elite_id": "elite_iron_beetle"
+  },
+  {
+    "id": "iron_basic_legs",
+    "name": "铁骨护腿",
+    "slot": "legs",
+    "stats": {
+      "defense": 3,
+      "max_hp": 10
+    },
+    "description": "以重甲精英甲虫的材料打造，提供稳定的基础属性。",
+    "special": "无特殊能力",
+    "recipe": {
+      "elite_iron_shell": 1,
+      "material": 2
+    },
+    "unlock_material": "elite_iron_shell",
+    "elite_id": "elite_iron_beetle"
+  },
+  {
+    "id": "iron_basic_feet",
+    "name": "铁骨战靴",
+    "slot": "feet",
+    "stats": {
+      "defense": 2,
+      "max_hp": 10
+    },
+    "description": "以重甲精英甲虫的材料打造，提供稳定的基础属性。",
+    "special": "无特殊能力",
+    "recipe": {
+      "elite_iron_shell": 1,
+      "material": 2
+    },
+    "unlock_material": "elite_iron_shell",
+    "elite_id": "elite_iron_beetle"
+  },
+  {
+    "id": "iron_basic_accessory",
+    "name": "铁骨饰品",
+    "slot": "accessory",
+    "stats": {
+      "max_energy": 8
+    },
+    "description": "以重甲精英甲虫的材料打造，提供稳定的基础属性。",
+    "special": "无特殊能力",
+    "recipe": {
+      "elite_iron_shell": 1,
+      "material": 2
+    },
+    "unlock_material": "elite_iron_shell",
+    "elite_id": "elite_iron_beetle"
+  },
+  {
+    "id": "hunter_basic_weapon",
+    "name": "强化猎人战刃",
+    "slot": "weapon",
+    "stats": {
+      "attack": 24
+    },
+    "description": "以裂爪精英的材料打造，提供稳定的基础属性。",
+    "special": "无特殊能力",
+    "recipe": {
+      "elite_tough_hide": 1,
+      "material": 6
+    },
+    "unlock_material": "elite_tough_hide",
+    "elite_id": "elite_claw_beast"
+  },
+  {
+    "id": "hunter_basic_head",
+    "name": "强化猎人头盔",
+    "slot": "head",
+    "stats": {
+      "defense": 9
+    },
+    "description": "以裂爪精英的材料打造，提供稳定的基础属性。",
+    "special": "无特殊能力",
+    "recipe": {
+      "elite_tough_hide": 1,
+      "material": 6
+    },
+    "unlock_material": "elite_tough_hide",
+    "elite_id": "elite_claw_beast"
+  },
+  {
+    "id": "hunter_basic_chest",
+    "name": "强化猎人护甲",
+    "slot": "chest",
+    "stats": {
+      "defense": 15,
+      "max_hp": 60
+    },
+    "description": "以裂爪精英的材料打造，提供稳定的基础属性。",
+    "special": "无特殊能力",
+    "recipe": {
+      "elite_tough_hide": 1,
+      "material": 6
+    },
+    "unlock_material": "elite_tough_hide",
+    "elite_id": "elite_claw_beast"
+  },
+  {
+    "id": "hunter_basic_hands",
+    "name": "强化猎人护手",
+    "slot": "hands",
+    "stats": {
+      "attack": 9,
+      "defense": 3
+    },
+    "description": "以裂爪精英的材料打造，提供稳定的基础属性。",
+    "special": "无特殊能力",
+    "recipe": {
+      "elite_tough_hide": 1,
+      "material": 6
+    },
+    "unlock_material": "elite_tough_hide",
+    "elite_id": "elite_claw_beast"
+  },
+  {
+    "id": "hunter_basic_legs",
+    "name": "强化猎人护腿",
+    "slot": "legs",
+    "stats": {
+      "defense": 9,
+      "max_hp": 30
+    },
+    "description": "以裂爪精英的材料打造，提供稳定的基础属性。",
+    "special": "无特殊能力",
+    "recipe": {
+      "elite_tough_hide": 1,
+      "material": 6
+    },
+    "unlock_material": "elite_tough_hide",
+    "elite_id": "elite_claw_beast"
+  },
+  {
+    "id": "hunter_basic_feet",
+    "name": "强化猎人战靴",
+    "slot": "feet",
+    "stats": {
+      "defense": 6,
+      "max_hp": 30
+    },
+    "description": "以裂爪精英的材料打造，提供稳定的基础属性。",
+    "special": "无特殊能力",
+    "recipe": {
+      "elite_tough_hide": 1,
+      "material": 6
+    },
+    "unlock_material": "elite_tough_hide",
+    "elite_id": "elite_claw_beast"
+  },
+  {
+    "id": "hunter_basic_accessory",
+    "name": "强化猎人饰品",
+    "slot": "accessory",
+    "stats": {
+      "max_energy": 24
+    },
+    "description": "以裂爪精英的材料打造，提供稳定的基础属性。",
+    "special": "无特殊能力",
+    "recipe": {
+      "elite_tough_hide": 1,
+      "material": 6
+    },
+    "unlock_material": "elite_tough_hide",
+    "elite_id": "elite_claw_beast"
+  },
+  {
+    "id": "refined_basic_weapon",
+    "name": "精炼核心战刃",
+    "slot": "weapon",
+    "stats": {
+      "attack": 64
+    },
+    "description": "以雷脊精英的材料打造，提供稳定的基础属性。",
+    "special": "无特殊能力",
+    "recipe": {
+      "elite_conductive_crystal": 1,
+      "material": 16
+    },
+    "unlock_material": "elite_conductive_crystal",
+    "elite_id": "elite_thunder_lizard"
+  },
+  {
+    "id": "refined_basic_head",
+    "name": "精炼核心头盔",
+    "slot": "head",
+    "stats": {
+      "defense": 24
+    },
+    "description": "以雷脊精英的材料打造，提供稳定的基础属性。",
+    "special": "无特殊能力",
+    "recipe": {
+      "elite_conductive_crystal": 1,
+      "material": 16
+    },
+    "unlock_material": "elite_conductive_crystal",
+    "elite_id": "elite_thunder_lizard"
+  },
+  {
+    "id": "refined_basic_chest",
+    "name": "精炼核心护甲",
+    "slot": "chest",
+    "stats": {
+      "defense": 40,
+      "max_hp": 160
+    },
+    "description": "以雷脊精英的材料打造，提供稳定的基础属性。",
+    "special": "无特殊能力",
+    "recipe": {
+      "elite_conductive_crystal": 1,
+      "material": 16
+    },
+    "unlock_material": "elite_conductive_crystal",
+    "elite_id": "elite_thunder_lizard"
+  },
+  {
+    "id": "refined_basic_hands",
+    "name": "精炼核心护手",
+    "slot": "hands",
+    "stats": {
+      "attack": 24,
+      "defense": 8
+    },
+    "description": "以雷脊精英的材料打造，提供稳定的基础属性。",
+    "special": "无特殊能力",
+    "recipe": {
+      "elite_conductive_crystal": 1,
+      "material": 16
+    },
+    "unlock_material": "elite_conductive_crystal",
+    "elite_id": "elite_thunder_lizard"
+  },
+  {
+    "id": "refined_basic_legs",
+    "name": "精炼核心护腿",
+    "slot": "legs",
+    "stats": {
+      "defense": 24,
+      "max_hp": 80
+    },
+    "description": "以雷脊精英的材料打造，提供稳定的基础属性。",
+    "special": "无特殊能力",
+    "recipe": {
+      "elite_conductive_crystal": 1,
+      "material": 16
+    },
+    "unlock_material": "elite_conductive_crystal",
+    "elite_id": "elite_thunder_lizard"
+  },
+  {
+    "id": "refined_basic_feet",
+    "name": "精炼核心战靴",
+    "slot": "feet",
+    "stats": {
+      "defense": 16,
+      "max_hp": 80
+    },
+    "description": "以雷脊精英的材料打造，提供稳定的基础属性。",
+    "special": "无特殊能力",
+    "recipe": {
+      "elite_conductive_crystal": 1,
+      "material": 16
+    },
+    "unlock_material": "elite_conductive_crystal",
+    "elite_id": "elite_thunder_lizard"
+  },
+  {
+    "id": "refined_basic_accessory",
+    "name": "精炼核心饰品",
+    "slot": "accessory",
+    "stats": {
+      "max_energy": 64
+    },
+    "description": "以雷脊精英的材料打造，提供稳定的基础属性。",
+    "special": "无特殊能力",
+    "recipe": {
+      "elite_conductive_crystal": 1,
+      "material": 16
+    },
+    "unlock_material": "elite_conductive_crystal",
+    "elite_id": "elite_thunder_lizard"
+  },
+  {
+    "id": "wall_blade",
+    "name": "破城重刃",
+    "slot": "weapon",
+    "stats": {
+      "attack": 60
+    },
+    "description": "以首领遗留材料打造的核心装备。",
+    "special": "攻击护盾中的敌人时伤害提高20%。",
+    "special_effect": "armor_break",
+    "recipe": {
+      "material_wall_blade": 1,
+      "material": 8
+    },
+    "unlock_material": "material_wall_blade",
+    "unlock_material_name": "破城甲片",
+    "boss_id": "wall_boss"
+  },
+  {
+    "id": "flame_gauntlet",
+    "name": "烬核腕甲",
+    "slot": "hands",
+    "stats": {
+      "attack": 35
+    },
+    "description": "以首领遗留材料打造的核心装备。",
+    "special": "使用灼烧能力时，灼烧持续伤害提高25%。",
+    "special_effect": "burn_boost",
+    "recipe": {
+      "material_flame_gauntlet": 1,
+      "material": 8
+    },
+    "unlock_material": "material_flame_gauntlet",
+    "unlock_material_name": "炽焰晶核",
+    "boss_id": "tower_20"
+  },
+  {
+    "id": "corrosion_mask",
+    "name": "净蚀面甲",
+    "slot": "head",
+    "stats": {
+      "defense": 30
+    },
+    "description": "以首领遗留材料打造的核心装备。",
+    "special": "受到的毒蚀持续伤害减少30%。",
+    "special_effect": "poison_resist",
+    "recipe": {
+      "material_corrosion_mask": 1,
+      "material": 8
+    },
+    "unlock_material": "material_corrosion_mask",
+    "unlock_material_name": "腐潮母核",
+    "boss_id": "tower_30"
+  },
+  {
+    "id": "thunder_blade",
+    "name": "雷脊战刃",
+    "slot": "weapon",
+    "stats": {
+      "attack": 90
+    },
+    "description": "以首领遗留材料打造的核心装备。",
+    "special": "普通攻击每第三次交锋额外造成30%攻击伤害。",
+    "special_effect": "thunder",
+    "recipe": {
+      "material_thunder_blade": 1,
+      "material": 8
+    },
+    "unlock_material": "material_thunder_blade",
+    "unlock_material_name": "雷脊晶骨",
+    "boss_id": "tower_40"
+  },
+  {
+    "id": "mirror_amulet",
+    "name": "镜核护符",
+    "slot": "accessory",
+    "stats": {
+      "max_energy": 50
+    },
+    "description": "以首领遗留材料打造的核心装备。",
+    "special": "防御时获得下一次交锋生效的护盾。",
+    "special_effect": "mirror",
+    "recipe": {
+      "material_mirror_amulet": 1,
+      "material": 8
+    },
+    "unlock_material": "material_mirror_amulet",
+    "unlock_material_name": "镜兽棱晶",
+    "boss_id": "tower_50"
+  },
+  {
+    "id": "bone_greaves",
+    "name": "万骨重胫",
+    "slot": "legs",
+    "stats": {
+      "defense": 85
+    },
+    "description": "以首领遗留材料打造的核心装备。",
+    "special": "防御时额外减轻20%所受伤害。",
+    "special_effect": "bone",
+    "recipe": {
+      "material_bone_greaves": 1,
+      "material": 8
+    },
+    "unlock_material": "material_bone_greaves",
+    "unlock_material_name": "万骨灵髓",
+    "boss_id": "tower_60"
+  },
+  {
+    "id": "void_boots",
+    "name": "虚界行靴",
+    "slot": "feet",
+    "stats": {
+      "defense": 50,
+      "attack": 30
+    },
+    "description": "以首领遗留材料打造的核心装备。",
+    "special": "战斗中首次受到直接攻击时减伤50%。",
+    "special_effect": "void",
+    "recipe": {
+      "material_void_boots": 1,
+      "material": 8
+    },
+    "unlock_material": "material_void_boots",
+    "unlock_material_name": "虚空棱晶",
+    "boss_id": "tower_70"
+  },
+  {
+    "id": "trial_0_seal",
+    "name": "淬体试炼印",
+    "slot": "accessory",
+    "stats": {
+      "max_energy": 8,
+      "defense": 4
+    },
+    "description": "完成淬体独行试炼后锻造的印记。",
+    "special": "生命低于35%时，受到的直接伤害降低10%。",
+    "special_effect": "trial_guard",
+    "recipe": {
+      "trial_0_fragment": 1,
+      "material": 3
+    },
+    "unlock_material": "trial_0_fragment",
+    "unlock_material_name": "淬体试炼印记",
+    "boss_id": "trial_realm_0"
+  },
+  {
+    "id": "trial_1_seal",
+    "name": "开脉试炼印",
+    "slot": "accessory",
+    "stats": {
+      "max_energy": 16,
+      "defense": 8
+    },
+    "description": "完成开脉独行试炼后锻造的印记。",
+    "special": "生命低于35%时，受到的直接伤害降低10%。",
+    "special_effect": "trial_guard",
+    "recipe": {
+      "trial_1_fragment": 1,
+      "material": 4
+    },
+    "unlock_material": "trial_1_fragment",
+    "unlock_material_name": "开脉试炼印记",
+    "boss_id": "trial_realm_1"
+  },
+  {
+    "id": "trial_2_seal",
+    "name": "凝核试炼印",
+    "slot": "accessory",
+    "stats": {
+      "max_energy": 24,
+      "defense": 12
+    },
+    "description": "完成凝核独行试炼后锻造的印记。",
+    "special": "生命低于35%时，受到的直接伤害降低10%。",
+    "special_effect": "trial_guard",
+    "recipe": {
+      "trial_2_fragment": 1,
+      "material": 5
+    },
+    "unlock_material": "trial_2_fragment",
+    "unlock_material_name": "凝核试炼印记",
+    "boss_id": "trial_realm_2"
+  },
+  {
+    "id": "trial_3_seal",
+    "name": "化罡试炼印",
+    "slot": "accessory",
+    "stats": {
+      "max_energy": 32,
+      "defense": 16
+    },
+    "description": "完成化罡独行试炼后锻造的印记。",
+    "special": "生命低于35%时，受到的直接伤害降低10%。",
+    "special_effect": "trial_guard",
+    "recipe": {
+      "trial_3_fragment": 1,
+      "material": 6
+    },
+    "unlock_material": "trial_3_fragment",
+    "unlock_material_name": "化罡试炼印记",
+    "boss_id": "trial_realm_3"
+  },
+  {
+    "id": "trial_4_seal",
+    "name": "通幽试炼印",
+    "slot": "accessory",
+    "stats": {
+      "max_energy": 40,
+      "defense": 20
+    },
+    "description": "完成通幽独行试炼后锻造的印记。",
+    "special": "生命低于35%时，受到的直接伤害降低10%。",
+    "special_effect": "trial_guard",
+    "recipe": {
+      "trial_4_fragment": 1,
+      "material": 7
+    },
+    "unlock_material": "trial_4_fragment",
+    "unlock_material_name": "通幽试炼印记",
+    "boss_id": "trial_realm_4"
+  },
+  {
+    "id": "trial_5_seal",
+    "name": "法相试炼印",
+    "slot": "accessory",
+    "stats": {
+      "max_energy": 48,
+      "defense": 24
+    },
+    "description": "完成法相独行试炼后锻造的印记。",
+    "special": "生命低于35%时，受到的直接伤害降低10%。",
+    "special_effect": "trial_guard",
+    "recipe": {
+      "trial_5_fragment": 1,
+      "material": 8
+    },
+    "unlock_material": "trial_5_fragment",
+    "unlock_material_name": "法相试炼印记",
+    "boss_id": "trial_realm_5"
+  },
+  {
+    "id": "trial_6_seal",
+    "name": "涅槃试炼印",
+    "slot": "accessory",
+    "stats": {
+      "max_energy": 56,
+      "defense": 28
+    },
+    "description": "完成涅槃独行试炼后锻造的印记。",
+    "special": "生命低于35%时，受到的直接伤害降低10%。",
+    "special_effect": "trial_guard",
+    "recipe": {
+      "trial_6_fragment": 1,
+      "material": 9
+    },
+    "unlock_material": "trial_6_fragment",
+    "unlock_material_name": "涅槃试炼印记",
+    "boss_id": "trial_realm_6"
+  },
+  {
+    "id": "trial_7_seal",
+    "name": "天劫试炼印",
+    "slot": "accessory",
+    "stats": {
+      "max_energy": 64,
+      "defense": 32
+    },
+    "description": "完成天劫独行试炼后锻造的印记。",
+    "special": "生命低于35%时，受到的直接伤害降低10%。",
+    "special_effect": "trial_guard",
+    "recipe": {
+      "trial_7_fragment": 1,
+      "material": 10
+    },
+    "unlock_material": "trial_7_fragment",
+    "unlock_material_name": "天劫试炼印记",
+    "boss_id": "trial_realm_7"
+  },
+  {
+    "id": "trial_8_seal",
+    "name": "超凡试炼印",
+    "slot": "accessory",
+    "stats": {
+      "max_energy": 72,
+      "defense": 36
+    },
+    "description": "完成超凡独行试炼后锻造的印记。",
+    "special": "生命低于35%时，受到的直接伤害降低10%。",
+    "special_effect": "trial_guard",
+    "recipe": {
+      "trial_8_fragment": 1,
+      "material": 11
+    },
+    "unlock_material": "trial_8_fragment",
+    "unlock_material_name": "超凡试炼印记",
+    "boss_id": "trial_realm_8"
+  },
+  {
+    "id": "trial_9_seal",
+    "name": "神话试炼印",
+    "slot": "accessory",
+    "stats": {
+      "max_energy": 80,
+      "defense": 40
+    },
+    "description": "完成神话独行试炼后锻造的印记。",
+    "special": "生命低于35%时，受到的直接伤害降低10%。",
+    "special_effect": "trial_guard",
+    "recipe": {
+      "trial_9_fragment": 1,
+      "material": 12
+    },
+    "unlock_material": "trial_9_fragment",
+    "unlock_material_name": "神话试炼印记",
+    "boss_id": "trial_realm_9"
+  },
+  {
+    "id": "purified_final_seal",
+    "name": "独核之证",
+    "slot": "accessory",
+    "stats": {
+      "max_energy": 120,
+      "defense": 90
+    },
+    "description": "反向净化终焉母核后留下的纪念。",
+    "special": "生命低于35%时，受到的直接伤害降低10%。",
+    "special_effect": "trial_guard",
+    "recipe": {
+      "purified_final_fragment": 1,
+      "material": 15
+    },
+    "unlock_material": "purified_final_fragment",
+    "unlock_material_name": "净化后的母核残晶",
+    "boss_id": "tower_100",
+    "unlock_after_purification": true
+  }
+]

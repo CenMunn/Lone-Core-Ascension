@@ -1,0 +1,124 @@
+{
+  "info": {
+    "name": "渡河 · 同提示词API教学（手动执行会计费）",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": "密钥请放本地secret环境变量。2.5需同时改image_model和image_size=1280*1280。创建只执行一次；断线先查控制台。不要批量反复Run集合。"
+  },
+  "variable": [
+    {
+      "key": "text_base",
+      "value": "https://api.deepseek.com"
+    },
+    {
+      "key": "text_model",
+      "value": "deepseek-chat"
+    },
+    {
+      "key": "text_key",
+      "value": ""
+    },
+    {
+      "key": "image_base",
+      "value": "https://dashscope.aliyuncs.com/api/v1"
+    },
+    {
+      "key": "image_model",
+      "value": "wanx2.1-t2i-turbo"
+    },
+    {
+      "key": "image_size",
+      "value": "1024*1024"
+    },
+    {
+      "key": "image_key",
+      "value": ""
+    },
+    {
+      "key": "task_id",
+      "value": ""
+    }
+  ],
+  "item": [
+    {
+      "name": "1 文本HTTP",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer {{text_key}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{text_base}}/chat/completions",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"model\": \"{{text_model}}\",\n  \"messages\": [\n    {\n      \"role\": \"user\",\n      \"content\": \"请用中文写一段80字以内的末世奇幻场景：白发紫瞳的沈霁月救下黑发蓝瞳、尚未觉醒的少年。只输出故事正文。\"\n    }\n  ],\n  \"stream\": false\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "2 图片异步提交（仅一次）",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer {{image_key}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "X-DashScope-Async",
+            "value": "enable"
+          }
+        ],
+        "url": "{{image_base}}/services/aigc/text2image/image-synthesis",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"model\": \"{{image_model}}\",\n  \"input\": {\n    \"prompt\": \"末世奇幻插画，白发紫瞳少女沈霁月身穿白色战斗外套、扎高马尾，在废弃城市中救下黑发蓝瞳的瘦弱少年，少年眼睛没有发光，电影感构图，无文字\",\n    \"negative_prompt\": \"文字，水印，多余肢体，少年眼睛发光\"\n  },\n  \"parameters\": {\n    \"size\": \"{{image_size}}\",\n    \"n\": 1,\n    \"seed\": 42,\n    \"prompt_extend\": false\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "const body=pm.response.json();",
+              "if(body.output && body.output.task_id) pm.collectionVariables.set(\"task_id\",body.output.task_id);"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "3 图片任务查询（可重复，间隔至少3秒）",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer {{image_key}}"
+          }
+        ],
+        "url": "{{image_base}}/tasks/{{task_id}}"
+      }
+    }
+  ]
+}

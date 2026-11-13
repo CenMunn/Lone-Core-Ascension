@@ -1,0 +1,602 @@
+[
+  {
+    "id": "rotted_hound",
+    "name": "腐蚀尸犬",
+    "rank": "F-",
+    "hp": 110,
+    "attack": 12,
+    "length_m": 1.5,
+    "description": "腐化猎犬潜伏在倒塌楼宇间，犬齿带有腐蚀性唾液。",
+    "sensed": "系统感受到腐蚀尸犬的危险气息，详细信息尚未解锁。",
+    "abilities": [
+      "corrosion_bite"
+    ],
+    "boss": false,
+    "nonhuman": true
+  },
+  {
+    "id": "polluted_beetle",
+    "name": "污染甲虫",
+    "rank": "F-",
+    "hp": 140,
+    "attack": 14,
+    "length_m": 3.0,
+    "description": "体长约三米，背甲接近成年人胸口，长颚与六足能碾碎碎砖。",
+    "sensed": "系统感受到污染甲虫的危险气息，详细信息尚未解锁。",
+    "abilities": [
+      "shell_guard"
+    ],
+    "boss": false,
+    "nonhuman": true
+  },
+  {
+    "id": "claw_beast",
+    "name": "裂爪兽",
+    "rank": "E",
+    "hp": 210,
+    "attack": 20,
+    "length_m": 2.3,
+    "description": "迅捷伏击型魔兽，以碎墙后的爪击突进闻名。",
+    "sensed": "系统感受到裂爪兽的危险气息，详细信息尚未解锁。",
+    "abilities": [
+      "rending_charge"
+    ],
+    "boss": false,
+    "nonhuman": true
+  },
+  {
+    "id": "energy_hunter",
+    "name": "噬能游猎者",
+    "rank": "D",
+    "hp": 360,
+    "attack": 32,
+    "length_m": 2.4,
+    "description": "灰黑甲片覆盖身体，追踪并吞噬核心能量。",
+    "sensed": "系统感受到噬能游猎者的危险气息，详细信息尚未解锁。",
+    "abilities": [
+      "energy_reflow"
+    ],
+    "boss": false,
+    "nonhuman": true
+  },
+  {
+    "id": "plague_parasite",
+    "name": "腐潮寄生体",
+    "rank": "C",
+    "hp": 550,
+    "attack": 45,
+    "length_m": 2.0,
+    "description": "污浊菌丝构成的不定形寄生体，能释放腐蚀毒雾。",
+    "sensed": "系统感受到腐潮寄生体的危险气息，详细信息尚未解锁。",
+    "abilities": [
+      "corrosion_bite"
+    ],
+    "boss": false,
+    "nonhuman": true
+  },
+  {
+    "id": "ash_wolf",
+    "name": "灰烬魔狼",
+    "rank": "B",
+    "hp": 880,
+    "attack": 70,
+    "length_m": 3.2,
+    "description": "灰烬与火星包裹的群猎魔狼，喜欢从侧后方追击。",
+    "sensed": "系统感受到灰烬魔狼的危险气息，详细信息尚未解锁。",
+    "abilities": [
+      "burning_core"
+    ],
+    "boss": false,
+    "nonhuman": true
+  },
+  {
+    "id": "thunder_lizard",
+    "name": "雷脊巨蜥",
+    "rank": "A",
+    "hp": 1400,
+    "attack": 110,
+    "length_m": 5.0,
+    "description": "背脊长满蓄雷棘刺的巨蜥，冲刺前会短暂蓄力。",
+    "sensed": "系统感受到雷脊巨蜥的危险气息，详细信息尚未解锁。",
+    "abilities": [
+      "lightning_strike"
+    ],
+    "boss": false,
+    "nonhuman": true
+  },
+  {
+    "id": "core_eater",
+    "name": "嗜核蚀龙",
+    "rank": "S",
+    "hp": 2300,
+    "attack": 165,
+    "length_m": 8.0,
+    "description": "甲壳覆满核心碎片的巨龙，吐息能蚀穿掩体。",
+    "sensed": "系统感受到嗜核蚀龙的危险气息，详细信息尚未解锁。",
+    "abilities": [
+      "corrosion_bite",
+      "burning_core"
+    ],
+    "boss": false,
+    "nonhuman": true
+  },
+  {
+    "id": "void_stalker",
+    "name": "虚界狩猎者",
+    "rank": "SS",
+    "hp": 3700,
+    "attack": 260,
+    "length_m": 3.0,
+    "description": "边缘虚化的深渊猎手，擅长破坏敌人的感知。",
+    "sensed": "系统感受到虚界狩猎者的危险气息，详细信息尚未解锁。",
+    "abilities": [
+      "rending_charge",
+      "gravity_fold"
+    ],
+    "boss": false,
+    "nonhuman": true
+  },
+  {
+    "id": "star_beast",
+    "name": "星冕巨兽",
+    "rank": "SSS",
+    "hp": 5800,
+    "attack": 400,
+    "length_m": 12.0,
+    "description": "身披星核碎片的巨大兽类，踏步使地面扭曲。",
+    "sensed": "系统感受到星冕巨兽的危险气息，详细信息尚未解锁。",
+    "abilities": [
+      "gravity_fold"
+    ],
+    "boss": false,
+    "nonhuman": true
+  },
+  {
+    "id": "reverse_time_beast",
+    "name": "逆时兽",
+    "rank": "UR",
+    "hp": 9500,
+    "attack": 620,
+    "length_m": 6.0,
+    "description": "身体周围呈现重叠残影的异界魔兽，能够干扰时间感知。",
+    "sensed": "系统感受到逆时兽的危险气息，详细信息尚未解锁。",
+    "abilities": [
+      "time_gap"
+    ],
+    "boss": false,
+    "nonhuman": true
+  },
+  {
+    "id": "forbidden_prism",
+    "name": "禁域棱王",
+    "rank": "UR",
+    "hp": 11000,
+    "attack": 720,
+    "length_m": 7.0,
+    "description": "漂浮的棱晶聚合生命，利用规则碎片扭曲局部空间。",
+    "sensed": "系统感受到禁域棱王的危险气息，详细信息尚未解锁。",
+    "abilities": [
+      "gravity_fold",
+      "time_gap"
+    ],
+    "boss": false,
+    "nonhuman": true
+  },
+  {
+    "id": "life_deer",
+    "name": "生息灵鹿",
+    "rank": "A",
+    "hp": 1350,
+    "attack": 85,
+    "length_m": 2.3,
+    "description": "能够净化伤口的敏捷异兽，遇到威胁时以柔光护住身体。",
+    "sensed": "系统感受到生息灵鹿的危险气息，详细信息尚未解锁。",
+    "abilities": [
+      "life_return"
+    ],
+    "boss": false,
+    "nonhuman": true
+  },
+  {
+    "id": "tower_10",
+    "name": "铁脊甲皇",
+    "rank": "A",
+    "hp": 3000,
+    "attack": 230,
+    "length_m": 6,
+    "description": "通天塔第10层守卫，拥有独特领域与守卫机制。",
+    "sensed": "系统感受到铁脊甲皇的存在，其详细规则尚未解锁。",
+    "abilities": [
+      "shell_guard"
+    ],
+    "boss": true,
+    "floor": 10,
+    "nonhuman": true
+  },
+  {
+    "id": "tower_20",
+    "name": "赤焰吞噬者",
+    "rank": "S",
+    "hp": 4800,
+    "attack": 300,
+    "length_m": 7,
+    "description": "通天塔第20层守卫，拥有独特领域与守卫机制。",
+    "sensed": "系统感受到赤焰吞噬者的存在，其详细规则尚未解锁。",
+    "abilities": [
+      "scarlet_burn",
+      "shell_guard"
+    ],
+    "boss": true,
+    "floor": 20,
+    "nonhuman": true
+  },
+  {
+    "id": "tower_30",
+    "name": "腐潮母巢",
+    "rank": "S",
+    "hp": 6600,
+    "attack": 370,
+    "length_m": 8,
+    "description": "通天塔第30层守卫，拥有独特领域与守卫机制。",
+    "sensed": "系统感受到腐潮母巢的存在，其详细规则尚未解锁。",
+    "abilities": [
+      "brood_corrosion",
+      "shell_guard"
+    ],
+    "boss": true,
+    "floor": 30,
+    "nonhuman": true
+  },
+  {
+    "id": "tower_40",
+    "name": "雷霆暴君",
+    "rank": "SS",
+    "hp": 8400,
+    "attack": 440,
+    "length_m": 9,
+    "description": "通天塔第40层守卫，拥有独特领域与守卫机制。",
+    "sensed": "系统感受到雷霆暴君的存在，其详细规则尚未解锁。",
+    "abilities": [
+      "tyrant_thunder",
+      "gravity_fold"
+    ],
+    "boss": true,
+    "floor": 40,
+    "nonhuman": true
+  },
+  {
+    "id": "tower_50",
+    "name": "深渊镜兽",
+    "rank": "SS",
+    "hp": 10200,
+    "attack": 510,
+    "length_m": 10,
+    "description": "通天塔第50层守卫，拥有独特领域与守卫机制。",
+    "sensed": "系统感受到深渊镜兽的存在，其详细规则尚未解锁。",
+    "abilities": [
+      "mirror_guard",
+      "gravity_fold"
+    ],
+    "boss": true,
+    "floor": 50,
+    "nonhuman": true
+  },
+  {
+    "id": "tower_60",
+    "name": "万骨巨神",
+    "rank": "SSS",
+    "hp": 12000,
+    "attack": 580,
+    "length_m": 11,
+    "description": "通天塔第60层守卫，拥有独特领域与守卫机制。",
+    "sensed": "系统感受到万骨巨神的存在，其详细规则尚未解锁。",
+    "abilities": [
+      "bone_guard",
+      "gravity_fold"
+    ],
+    "boss": true,
+    "floor": 60,
+    "nonhuman": true
+  },
+  {
+    "id": "tower_70",
+    "name": "虚空猎主",
+    "rank": "SSS",
+    "hp": 13800,
+    "attack": 650,
+    "length_m": 12,
+    "description": "通天塔第70层守卫，拥有独特领域与守卫机制。",
+    "sensed": "系统感受到虚空猎主的存在，其详细规则尚未解锁。",
+    "abilities": [
+      "void_rend",
+      "gravity_fold"
+    ],
+    "boss": true,
+    "floor": 70,
+    "nonhuman": true
+  },
+  {
+    "id": "tower_80",
+    "name": "重力界王",
+    "rank": "UR",
+    "hp": 15600,
+    "attack": 720,
+    "length_m": 13,
+    "description": "通天塔第80层守卫，拥有独特领域与守卫机制。",
+    "sensed": "系统感受到重力界王的存在，其详细规则尚未解锁。",
+    "abilities": [
+      "gravity_fold"
+    ],
+    "boss": true,
+    "floor": 80,
+    "nonhuman": true
+  },
+  {
+    "id": "tower_90",
+    "name": "时隙守望者",
+    "rank": "UR",
+    "hp": 17400,
+    "attack": 790,
+    "length_m": 14,
+    "description": "通天塔第90层守卫，拥有独特领域与守卫机制。",
+    "sensed": "系统感受到时隙守望者的存在，其详细规则尚未解锁。",
+    "abilities": [
+      "time_gap"
+    ],
+    "boss": true,
+    "floor": 90,
+    "nonhuman": true
+  },
+  {
+    "id": "tower_100",
+    "name": "噬核母皇·终焉之核",
+    "rank": "ULTRA",
+    "hp": 19200,
+    "attack": 860,
+    "length_m": 15,
+    "description": "通天塔第100层守卫，拥有独特领域与守卫机制。",
+    "sensed": "系统感受到噬核母皇·终焉之核的存在，其详细规则尚未解锁。",
+    "abilities": [
+      "final_corrosion",
+      "time_gap"
+    ],
+    "boss": true,
+    "floor": 100,
+    "nonhuman": true
+  },
+  {
+    "id": "wall_boss",
+    "name": "破城重甲兽",
+    "rank": "SS",
+    "hp": 4800,
+    "attack": 330,
+    "length_m": 9,
+    "description": "威胁北墙撤离线的巨型重甲魔兽，冲撞前会暴露甲壳连接处。",
+    "sensed": "系统感受到破城重甲兽的危险气息。",
+    "abilities": [
+      "breach_rend",
+      "shell_guard",
+      "rending_charge"
+    ],
+    "boss": true,
+    "nonhuman": true
+  },
+  {
+    "id": "trial_realm_0",
+    "name": "淬体独行试炼守卫",
+    "rank": "F-",
+    "hp": 160,
+    "attack": 14,
+    "length_m": 3.0,
+    "description": "淬体大境界的独行守卫，只由陆凌霄独自挑战。",
+    "sensed": "系统感受到淬体独行试炼守卫的存在。",
+    "abilities": [
+      "trial_body_rend",
+      "shell_guard"
+    ],
+    "boss": true,
+    "trial_realm": 0,
+    "nonhuman": true
+  },
+  {
+    "id": "trial_realm_1",
+    "name": "开脉独行试炼守卫",
+    "rank": "E",
+    "hp": 260,
+    "attack": 22,
+    "length_m": 3.5,
+    "description": "开脉大境界的独行守卫，只由陆凌霄独自挑战。",
+    "sensed": "系统感受到开脉独行试炼守卫的存在。",
+    "abilities": [
+      "trial_pulse",
+      "shell_guard"
+    ],
+    "boss": true,
+    "trial_realm": 1,
+    "nonhuman": true
+  },
+  {
+    "id": "trial_realm_2",
+    "name": "凝核独行试炼守卫",
+    "rank": "D",
+    "hp": 430,
+    "attack": 34,
+    "length_m": 4.0,
+    "description": "凝核大境界的独行守卫，只由陆凌霄独自挑战。",
+    "sensed": "系统感受到凝核独行试炼守卫的存在。",
+    "abilities": [
+      "trial_core_guard",
+      "shell_guard"
+    ],
+    "boss": true,
+    "trial_realm": 2,
+    "nonhuman": true
+  },
+  {
+    "id": "trial_realm_3",
+    "name": "化罡独行试炼守卫",
+    "rank": "C",
+    "hp": 690,
+    "attack": 52,
+    "length_m": 4.5,
+    "description": "化罡大境界的独行守卫，只由陆凌霄独自挑战。",
+    "sensed": "系统感受到化罡独行试炼守卫的存在。",
+    "abilities": [
+      "trial_aura_guard",
+      "shell_guard"
+    ],
+    "boss": true,
+    "trial_realm": 3,
+    "nonhuman": true
+  },
+  {
+    "id": "trial_realm_4",
+    "name": "通幽独行试炼守卫",
+    "rank": "B",
+    "hp": 1100,
+    "attack": 80,
+    "length_m": 5.0,
+    "description": "通幽大境界的独行守卫，只由陆凌霄独自挑战。",
+    "sensed": "系统感受到通幽独行试炼守卫的存在。",
+    "abilities": [
+      "trial_sense_weakness",
+      "shell_guard"
+    ],
+    "boss": true,
+    "trial_realm": 4,
+    "nonhuman": true
+  },
+  {
+    "id": "trial_realm_5",
+    "name": "法相独行试炼守卫",
+    "rank": "A",
+    "hp": 1750,
+    "attack": 120,
+    "length_m": 5.5,
+    "description": "法相大境界的独行守卫，只由陆凌霄独自挑战。",
+    "sensed": "系统感受到法相独行试炼守卫的存在。",
+    "abilities": [
+      "trial_avatar_strike",
+      "shell_guard"
+    ],
+    "boss": true,
+    "trial_realm": 5,
+    "nonhuman": true
+  },
+  {
+    "id": "trial_realm_6",
+    "name": "涅槃独行试炼守卫",
+    "rank": "S",
+    "hp": 2800,
+    "attack": 185,
+    "length_m": 6.0,
+    "description": "涅槃大境界的独行守卫，只由陆凌霄独自挑战。",
+    "sensed": "系统感受到涅槃独行试炼守卫的存在。",
+    "abilities": [
+      "trial_rebirth",
+      "gravity_fold"
+    ],
+    "boss": true,
+    "trial_realm": 6,
+    "nonhuman": true
+  },
+  {
+    "id": "trial_realm_7",
+    "name": "天劫独行试炼守卫",
+    "rank": "SS",
+    "hp": 4400,
+    "attack": 280,
+    "length_m": 6.5,
+    "description": "天劫大境界的独行守卫，只由陆凌霄独自挑战。",
+    "sensed": "系统感受到天劫独行试炼守卫的存在。",
+    "abilities": [
+      "trial_thunder",
+      "gravity_fold"
+    ],
+    "boss": true,
+    "trial_realm": 7,
+    "nonhuman": true
+  },
+  {
+    "id": "trial_realm_8",
+    "name": "超凡独行试炼守卫",
+    "rank": "SSS",
+    "hp": 6900,
+    "attack": 430,
+    "length_m": 7.0,
+    "description": "超凡大境界的独行守卫，只由陆凌霄独自挑战。",
+    "sensed": "系统感受到超凡独行试炼守卫的存在。",
+    "abilities": [
+      "trial_supernatural",
+      "gravity_fold"
+    ],
+    "boss": true,
+    "trial_realm": 8,
+    "nonhuman": true
+  },
+  {
+    "id": "trial_realm_9",
+    "name": "神话独行试炼守卫",
+    "rank": "UR",
+    "hp": 10800,
+    "attack": 650,
+    "length_m": 7.5,
+    "description": "神话大境界的独行守卫，只由陆凌霄独自挑战。",
+    "sensed": "系统感受到神话独行试炼守卫的存在。",
+    "abilities": [
+      "trial_mythic",
+      "gravity_fold"
+    ],
+    "boss": true,
+    "trial_realm": 9,
+    "nonhuman": true
+  },
+  {
+    "id": "elite_iron_beetle",
+    "name": "重甲精英甲虫",
+    "rank": "E",
+    "hp": 210,
+    "attack": 18,
+    "length_m": 3.0,
+    "description": "精英个体。体长约三米，背甲接近成年人胸口，长颚与六足能碾碎碎砖。",
+    "sensed": "系统感受到重甲精英甲虫的危险气息。",
+    "abilities": [
+      "shell_guard"
+    ],
+    "boss": false,
+    "nonhuman": true,
+    "elite_material": "elite_iron_shell"
+  },
+  {
+    "id": "elite_claw_beast",
+    "name": "裂爪精英",
+    "rank": "D",
+    "hp": 315,
+    "attack": 25,
+    "length_m": 2.3,
+    "description": "精英个体。迅捷伏击型魔兽，以碎墙后的爪击突进闻名。",
+    "sensed": "系统感受到裂爪精英的危险气息。",
+    "abilities": [
+      "rending_charge"
+    ],
+    "boss": false,
+    "nonhuman": true,
+    "elite_material": "elite_tough_hide"
+  },
+  {
+    "id": "elite_thunder_lizard",
+    "name": "雷脊精英",
+    "rank": "A",
+    "hp": 2100,
+    "attack": 138,
+    "length_m": 5.0,
+    "description": "精英个体。背脊长满蓄雷棘刺的巨蜥，冲刺前会短暂蓄力。",
+    "sensed": "系统感受到雷脊精英的危险气息。",
+    "abilities": [
+      "lightning_strike"
+    ],
+    "boss": false,
+    "nonhuman": true,
+    "elite_material": "elite_conductive_crystal"
+  }
+]

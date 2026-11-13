@@ -1,0 +1,58 @@
+[
+  {
+    "id": "ruins",
+    "name": "外环废墟地下城",
+    "rank": "F-",
+    "description": "残存设施与污染甲虫交错的初阶地下城。",
+    "monster_ids": [
+      "polluted_beetle",
+      "rotted_hound"
+    ]
+  },
+  {
+    "id": "ash_den",
+    "name": "灰烬魔巢",
+    "rank": "B",
+    "description": "热浪与魔狼支配的废弃矿区。",
+    "monster_ids": [
+      "ash_wolf"
+    ]
+  },
+  {
+    "id": "thunder_crack",
+    "name": "雷脊裂谷",
+    "rank": "A",
+    "description": "雷暴长期不散的异空间裂谷。",
+    "monster_ids": [
+      "thunder_lizard"
+    ]
+  },
+  {
+    "id": "void_nest",
+    "name": "虚界魔巢",
+    "rank": "SS",
+    "description": "重力紊乱且感知不可靠的深渊边缘。",
+    "monster_ids": [
+      "void_stalker",
+      "star_beast"
+    ]
+  },
+  {
+    "id": "sky_tower",
+    "name": "通天塔",
+    "rank": "UR",
+    "description": "共有一百层的巨塔，每十层由守卫镇守。",
+    "monster_ids": [
+      "tower_10",
+      "tower_20",
+      "tower_30",
+      "tower_40",
+      "tower_50",
+      "tower_60",
+      "tower_70",
+      "tower_80",
+      "tower_90",
+      "tower_100"
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "levels": [
+    {"rank":"F-","next_xp":60,"core_xp":20},
+    {"rank":"E","next_xp":100,"core_xp":30},
+    {"rank":"D","next_xp":160,"core_xp":45},
+    {"rank":"C","next_xp":260,"core_xp":65},
+    {"rank":"B","next_xp":400,"core_xp":90},
+    {"rank":"A","next_xp":600,"core_xp":120},
+    {"rank":"S","next_xp":900,"core_xp":160},
+    {"rank":"SS","next_xp":1300,"core_xp":210},
+    {"rank":"SSS","next_xp":1800,"core_xp":270},
+    {"rank":"UR","next_xp":null,"core_xp":350}
+  ],
+  "absorb_energy":8,
+  "absorb_pollution":2,
+  "hp_per_rank":6,
+  "attack_per_rank":2
+}

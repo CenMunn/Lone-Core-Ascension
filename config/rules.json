@@ -1,0 +1,1520 @@
+{
+  "version": "1.0",
+  "countdown": 5000,
+  "initial_food": 8,
+  "rest_food": 1,
+  "rest_energy": 70,
+  "rest_hp": 80,
+  "train_energy": 20,
+  "train_food": 1,
+  "train_xp": 18,
+  "explore_energy": 8,
+  "purify_energy": 8,
+  "purify_amount": 20,
+  "craft_material": 6,
+  "craft_clean_core": 2,
+  "skill_slots": 3,
+  "stages": [
+    {
+      "index": 0,
+      "realm": "淬体",
+      "phase": "初期",
+      "xp": 24,
+      "clean_core": 1,
+      "trial_required": true,
+      "rank": "F-",
+      "max_hp": 100,
+      "unlock": null
+    },
+    {
+      "index": 1,
+      "realm": "淬体",
+      "phase": "中期",
+      "xp": 26,
+      "clean_core": 1,
+      "trial_required": true,
+      "rank": "F-",
+      "max_hp": 108,
+      "unlock": null
+    },
+    {
+      "index": 2,
+      "realm": "淬体",
+      "phase": "后期",
+      "xp": 28,
+      "clean_core": 1,
+      "trial_required": true,
+      "rank": "F-",
+      "max_hp": 116,
+      "unlock": null
+    },
+    {
+      "index": 3,
+      "realm": "淬体",
+      "phase": "巅峰",
+      "xp": 30,
+      "clean_core": 1,
+      "trial_required": true,
+      "rank": "F-",
+      "max_hp": 124,
+      "unlock": null
+    },
+    {
+      "index": 4,
+      "realm": "开脉",
+      "phase": "初期",
+      "xp": 32,
+      "clean_core": 1,
+      "trial_required": true,
+      "rank": "E",
+      "max_hp": 132,
+      "unlock": {
+        "id": "core_scan",
+        "name": "核心结构扫描",
+        "effect": "净化效率提高5"
+      }
+    },
+    {
+      "index": 5,
+      "realm": "开脉",
+      "phase": "中期",
+      "xp": 34,
+      "clean_core": 1,
+      "trial_required": true,
+      "rank": "E",
+      "max_hp": 140,
+      "unlock": null
+    },
+    {
+      "index": 6,
+      "realm": "开脉",
+      "phase": "后期",
+      "xp": 36,
+      "clean_core": 1,
+      "trial_required": true,
+      "rank": "E",
+      "max_hp": 148,
+      "unlock": null
+    },
+    {
+      "index": 7,
+      "realm": "开脉",
+      "phase": "巅峰",
+      "xp": 38,
+      "clean_core": 1,
+      "trial_required": true,
+      "rank": "E",
+      "max_hp": 156,
+      "unlock": null
+    },
+    {
+      "index": 8,
+      "realm": "凝核",
+      "phase": "初期",
+      "xp": 40,
+      "clean_core": 1,
+      "trial_required": true,
+      "rank": "D",
+      "max_hp": 164,
+      "unlock": null
+    },
+    {
+      "index": 9,
+      "realm": "凝核",
+      "phase": "中期",
+      "xp": 42,
+      "clean_core": 1,
+      "trial_required": true,
+      "rank": "D",
+      "max_hp": 172,
+      "unlock": null
+    },
+    {
+      "index": 10,
+      "realm": "凝核",
+      "phase": "后期",
+      "xp": 44,
+      "clean_core": 1,
+      "trial_required": true,
+      "rank": "D",
+      "max_hp": 180,
+      "unlock": null
+    },
+    {
+      "index": 11,
+      "realm": "凝核",
+      "phase": "巅峰",
+      "xp": 46,
+      "clean_core": 1,
+      "trial_required": true,
+      "rank": "D",
+      "max_hp": 188,
+      "unlock": null
+    },
+    {
+      "index": 12,
+      "realm": "化罡",
+      "phase": "初期",
+      "xp": 48,
+      "clean_core": 2,
+      "trial_required": true,
+      "rank": "C",
+      "max_hp": 196,
+      "unlock": {
+        "id": "furnace_control",
+        "name": "熔炉精控",
+        "effect": "炼核污染由3降为2"
+      }
+    },
+    {
+      "index": 13,
+      "realm": "化罡",
+      "phase": "中期",
+      "xp": 50,
+      "clean_core": 2,
+      "trial_required": true,
+      "rank": "C",
+      "max_hp": 204,
+      "unlock": null
+    },
+    {
+      "index": 14,
+      "realm": "化罡",
+      "phase": "后期",
+      "xp": 52,
+      "clean_core": 2,
+      "trial_required": true,
+      "rank": "C",
+      "max_hp": 212,
+      "unlock": null
+    },
+    {
+      "index": 15,
+      "realm": "化罡",
+      "phase": "巅峰",
+      "xp": 54,
+      "clean_core": 2,
+      "trial_required": true,
+      "rank": "C",
+      "max_hp": 220,
+      "unlock": null
+    },
+    {
+      "index": 16,
+      "realm": "通幽",
+      "phase": "初期",
+      "xp": 56,
+      "clean_core": 2,
+      "trial_required": true,
+      "rank": "B",
+      "max_hp": 228,
+      "unlock": null
+    },
+    {
+      "index": 17,
+      "realm": "通幽",
+      "phase": "中期",
+      "xp": 58,
+      "clean_core": 2,
+      "trial_required": true,
+      "rank": "B",
+      "max_hp": 236,
+      "unlock": null
+    },
+    {
+      "index": 18,
+      "realm": "通幽",
+      "phase": "后期",
+      "xp": 60,
+      "clean_core": 2,
+      "trial_required": true,
+      "rank": "B",
+      "max_hp": 244,
+      "unlock": null
+    },
+    {
+      "index": 19,
+      "realm": "通幽",
+      "phase": "巅峰",
+      "xp": 62,
+      "clean_core": 2,
+      "trial_required": true,
+      "rank": "B",
+      "max_hp": 252,
+      "unlock": null
+    },
+    {
+      "index": 20,
+      "realm": "法相",
+      "phase": "初期",
+      "xp": 64,
+      "clean_core": 2,
+      "trial_required": true,
+      "rank": "A",
+      "max_hp": 260,
+      "unlock": {
+        "id": "energy_barrier",
+        "name": "独行护壁",
+        "effect": "受到伤害降低2"
+      }
+    },
+    {
+      "index": 21,
+      "realm": "法相",
+      "phase": "中期",
+      "xp": 66,
+      "clean_core": 2,
+      "trial_required": true,
+      "rank": "A",
+      "max_hp": 268,
+      "unlock": null
+    },
+    {
+      "index": 22,
+      "realm": "法相",
+      "phase": "后期",
+      "xp": 68,
+      "clean_core": 2,
+      "trial_required": true,
+      "rank": "A",
+      "max_hp": 276,
+      "unlock": null
+    },
+    {
+      "index": 23,
+      "realm": "法相",
+      "phase": "巅峰",
+      "xp": 70,
+      "clean_core": 2,
+      "trial_required": true,
+      "rank": "A",
+      "max_hp": 284,
+      "unlock": null
+    },
+    {
+      "index": 24,
+      "realm": "涅槃",
+      "phase": "初期",
+      "xp": 72,
+      "clean_core": 3,
+      "trial_required": true,
+      "rank": "S",
+      "max_hp": 292,
+      "unlock": null
+    },
+    {
+      "index": 25,
+      "realm": "涅槃",
+      "phase": "中期",
+      "xp": 74,
+      "clean_core": 3,
+      "trial_required": true,
+      "rank": "S",
+      "max_hp": 300,
+      "unlock": null
+    },
+    {
+      "index": 26,
+      "realm": "涅槃",
+      "phase": "后期",
+      "xp": 76,
+      "clean_core": 3,
+      "trial_required": true,
+      "rank": "S",
+      "max_hp": 308,
+      "unlock": null
+    },
+    {
+      "index": 27,
+      "realm": "涅槃",
+      "phase": "巅峰",
+      "xp": 78,
+      "clean_core": 3,
+      "trial_required": true,
+      "rank": "S",
+      "max_hp": 316,
+      "unlock": null
+    },
+    {
+      "index": 28,
+      "realm": "天劫",
+      "phase": "初期",
+      "xp": 80,
+      "clean_core": 3,
+      "trial_required": true,
+      "rank": "SS",
+      "max_hp": 324,
+      "unlock": null
+    },
+    {
+      "index": 29,
+      "realm": "天劫",
+      "phase": "中期",
+      "xp": 82,
+      "clean_core": 3,
+      "trial_required": true,
+      "rank": "SS",
+      "max_hp": 332,
+      "unlock": null
+    },
+    {
+      "index": 30,
+      "realm": "天劫",
+      "phase": "后期",
+      "xp": 84,
+      "clean_core": 3,
+      "trial_required": true,
+      "rank": "SS",
+      "max_hp": 340,
+      "unlock": null
+    },
+    {
+      "index": 31,
+      "realm": "天劫",
+      "phase": "巅峰",
+      "xp": 86,
+      "clean_core": 3,
+      "trial_required": true,
+      "rank": "SS",
+      "max_hp": 348,
+      "unlock": null
+    },
+    {
+      "index": 32,
+      "realm": "超凡",
+      "phase": "初期",
+      "xp": 88,
+      "clean_core": 3,
+      "trial_required": true,
+      "rank": "SSS",
+      "max_hp": 356,
+      "unlock": {
+        "id": "reverse_protocol",
+        "name": "逆向净化协议",
+        "effect": "具备终局净化知识，仍需百层战果与女主UR研究"
+      }
+    },
+    {
+      "index": 33,
+      "realm": "超凡",
+      "phase": "中期",
+      "xp": 90,
+      "clean_core": 3,
+      "trial_required": true,
+      "rank": "SSS",
+      "max_hp": 364,
+      "unlock": null
+    },
+    {
+      "index": 34,
+      "realm": "超凡",
+      "phase": "后期",
+      "xp": 92,
+      "clean_core": 3,
+      "trial_required": true,
+      "rank": "SSS",
+      "max_hp": 372,
+      "unlock": null
+    },
+    {
+      "index": 35,
+      "realm": "超凡",
+      "phase": "巅峰",
+      "xp": 94,
+      "clean_core": 3,
+      "trial_required": true,
+      "rank": "SSS",
+      "max_hp": 380,
+      "unlock": null
+    },
+    {
+      "index": 36,
+      "realm": "神话",
+      "phase": "初期",
+      "xp": 96,
+      "clean_core": 4,
+      "trial_required": true,
+      "rank": "UR",
+      "max_hp": 388,
+      "unlock": null
+    },
+    {
+      "index": 37,
+      "realm": "神话",
+      "phase": "中期",
+      "xp": 98,
+      "clean_core": 4,
+      "trial_required": true,
+      "rank": "UR",
+      "max_hp": 396,
+      "unlock": null
+    },
+    {
+      "index": 38,
+      "realm": "神话",
+      "phase": "后期",
+      "xp": 100,
+      "clean_core": 4,
+      "trial_required": true,
+      "rank": "UR",
+      "max_hp": 404,
+      "unlock": null
+    },
+    {
+      "index": 39,
+      "realm": "神话",
+      "phase": "巅峰",
+      "xp": 102,
+      "clean_core": 4,
+      "trial_required": true,
+      "rank": "UR",
+      "max_hp": 412,
+      "unlock": null
+    }
+  ],
+  "floors": [
+    {
+      "floor": 1,
+      "guardian": false,
+      "name": "第1层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 55,
+      "damage": 12,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 2,
+      "guardian": false,
+      "name": "第2层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 55,
+      "damage": 12,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 3,
+      "guardian": false,
+      "name": "第3层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 55,
+      "damage": 12,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 4,
+      "guardian": false,
+      "name": "第4层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 55,
+      "damage": 12,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 5,
+      "guardian": false,
+      "name": "第5层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 55,
+      "damage": 12,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 6,
+      "guardian": false,
+      "name": "第6层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 55,
+      "damage": 12,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 7,
+      "guardian": false,
+      "name": "第7层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 55,
+      "damage": 12,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 8,
+      "guardian": false,
+      "name": "第8层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 55,
+      "damage": 12,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 9,
+      "guardian": false,
+      "name": "第9层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 55,
+      "damage": 12,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 10,
+      "guardian": true,
+      "name": "铁颚守卫",
+      "mechanic": "蓄力时先防御，破绽再攻击",
+      "hp": 80,
+      "damage": 12,
+      "pollution": 4,
+      "reward_clean_core": 3
+    },
+    {
+      "floor": 11,
+      "guardian": false,
+      "name": "第11层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 58,
+      "damage": 12,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 12,
+      "guardian": false,
+      "name": "第12层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 58,
+      "damage": 12,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 13,
+      "guardian": false,
+      "name": "第13层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 58,
+      "damage": 12,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 14,
+      "guardian": false,
+      "name": "第14层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 58,
+      "damage": 12,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 15,
+      "guardian": false,
+      "name": "第15层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 58,
+      "damage": 12,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 16,
+      "guardian": false,
+      "name": "第16层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 58,
+      "damage": 12,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 17,
+      "guardian": false,
+      "name": "第17层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 58,
+      "damage": 12,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 18,
+      "guardian": false,
+      "name": "第18层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 58,
+      "damage": 12,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 19,
+      "guardian": false,
+      "name": "第19层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 58,
+      "damage": 12,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 20,
+      "guardian": true,
+      "name": "镜壳猎手",
+      "mechanic": "镜壳反震，防御可打碎护壳",
+      "hp": 85,
+      "damage": 13,
+      "pollution": 4,
+      "reward_clean_core": 3
+    },
+    {
+      "floor": 21,
+      "guardian": false,
+      "name": "第21层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 61,
+      "damage": 13,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 22,
+      "guardian": false,
+      "name": "第22层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 61,
+      "damage": 13,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 23,
+      "guardian": false,
+      "name": "第23层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 61,
+      "damage": 13,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 24,
+      "guardian": false,
+      "name": "第24层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 61,
+      "damage": 13,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 25,
+      "guardian": false,
+      "name": "第25层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 61,
+      "damage": 13,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 26,
+      "guardian": false,
+      "name": "第26层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 61,
+      "damage": 13,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 27,
+      "guardian": false,
+      "name": "第27层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 61,
+      "damage": 13,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 28,
+      "guardian": false,
+      "name": "第28层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 61,
+      "damage": 13,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 29,
+      "guardian": false,
+      "name": "第29层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 61,
+      "damage": 13,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 30,
+      "guardian": true,
+      "name": "噬能藤王",
+      "mechanic": "寄生污染，携带净化药剂",
+      "hp": 90,
+      "damage": 13,
+      "pollution": 4,
+      "reward_clean_core": 3
+    },
+    {
+      "floor": 31,
+      "guardian": false,
+      "name": "第31层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 64,
+      "damage": 13,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 32,
+      "guardian": false,
+      "name": "第32层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 64,
+      "damage": 13,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 33,
+      "guardian": false,
+      "name": "第33层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 64,
+      "damage": 13,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 34,
+      "guardian": false,
+      "name": "第34层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 64,
+      "damage": 13,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 35,
+      "guardian": false,
+      "name": "第35层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 64,
+      "damage": 13,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 36,
+      "guardian": false,
+      "name": "第36层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 64,
+      "damage": 13,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 37,
+      "guardian": false,
+      "name": "第37层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 64,
+      "damage": 13,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 38,
+      "guardian": false,
+      "name": "第38层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 64,
+      "damage": 13,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 39,
+      "guardian": false,
+      "name": "第39层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 64,
+      "damage": 13,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 40,
+      "guardian": true,
+      "name": "回声石像",
+      "mechanic": "重击回声，防御切断共鸣",
+      "hp": 95,
+      "damage": 14,
+      "pollution": 4,
+      "reward_clean_core": 3
+    },
+    {
+      "floor": 41,
+      "guardian": false,
+      "name": "第41层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 67,
+      "damage": 14,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 42,
+      "guardian": false,
+      "name": "第42层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 67,
+      "damage": 14,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 43,
+      "guardian": false,
+      "name": "第43层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 67,
+      "damage": 14,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 44,
+      "guardian": false,
+      "name": "第44层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 67,
+      "damage": 14,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 45,
+      "guardian": false,
+      "name": "第45层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 67,
+      "damage": 14,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 46,
+      "guardian": false,
+      "name": "第46层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 67,
+      "damage": 14,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 47,
+      "guardian": false,
+      "name": "第47层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 67,
+      "damage": 14,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 48,
+      "guardian": false,
+      "name": "第48层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 67,
+      "damage": 14,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 49,
+      "guardian": false,
+      "name": "第49层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 67,
+      "damage": 14,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 50,
+      "guardian": true,
+      "name": "裂空双刃",
+      "mechanic": "双刃连击，技能爆发压制",
+      "hp": 100,
+      "damage": 14,
+      "pollution": 4,
+      "reward_clean_core": 3
+    },
+    {
+      "floor": 51,
+      "guardian": false,
+      "name": "第51层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 70,
+      "damage": 14,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 52,
+      "guardian": false,
+      "name": "第52层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 70,
+      "damage": 14,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 53,
+      "guardian": false,
+      "name": "第53层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 70,
+      "damage": 14,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 54,
+      "guardian": false,
+      "name": "第54层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 70,
+      "damage": 14,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 55,
+      "guardian": false,
+      "name": "第55层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 70,
+      "damage": 14,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 56,
+      "guardian": false,
+      "name": "第56层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 70,
+      "damage": 14,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 57,
+      "guardian": false,
+      "name": "第57层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 70,
+      "damage": 14,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 58,
+      "guardian": false,
+      "name": "第58层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 70,
+      "damage": 14,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 59,
+      "guardian": false,
+      "name": "第59层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 70,
+      "damage": 14,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 60,
+      "guardian": true,
+      "name": "寂静审判者",
+      "mechanic": "封能一回合，先防御恢复",
+      "hp": 105,
+      "damage": 15,
+      "pollution": 4,
+      "reward_clean_core": 3
+    },
+    {
+      "floor": 61,
+      "guardian": false,
+      "name": "第61层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 73,
+      "damage": 15,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 62,
+      "guardian": false,
+      "name": "第62层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 73,
+      "damage": 15,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 63,
+      "guardian": false,
+      "name": "第63层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 73,
+      "damage": 15,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 64,
+      "guardian": false,
+      "name": "第64层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 73,
+      "damage": 15,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 65,
+      "guardian": false,
+      "name": "第65层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 73,
+      "damage": 15,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 66,
+      "guardian": false,
+      "name": "第66层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 73,
+      "damage": 15,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 67,
+      "guardian": false,
+      "name": "第67层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 73,
+      "damage": 15,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 68,
+      "guardian": false,
+      "name": "第68层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 73,
+      "damage": 15,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 69,
+      "guardian": false,
+      "name": "第69层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 73,
+      "damage": 15,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 70,
+      "guardian": true,
+      "name": "炎狱龙骸",
+      "mechanic": "炎甲灼烧，速战并及时净化",
+      "hp": 110,
+      "damage": 15,
+      "pollution": 4,
+      "reward_clean_core": 3
+    },
+    {
+      "floor": 71,
+      "guardian": false,
+      "name": "第71层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 76,
+      "damage": 15,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 72,
+      "guardian": false,
+      "name": "第72层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 76,
+      "damage": 15,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 73,
+      "guardian": false,
+      "name": "第73层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 76,
+      "damage": 15,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 74,
+      "guardian": false,
+      "name": "第74层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 76,
+      "damage": 15,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 75,
+      "guardian": false,
+      "name": "第75层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 76,
+      "damage": 15,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 76,
+      "guardian": false,
+      "name": "第76层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 76,
+      "damage": 15,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 77,
+      "guardian": false,
+      "name": "第77层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 76,
+      "damage": 15,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 78,
+      "guardian": false,
+      "name": "第78层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 76,
+      "damage": 15,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 79,
+      "guardian": false,
+      "name": "第79层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 76,
+      "damage": 15,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 80,
+      "guardian": true,
+      "name": "逆流执政官",
+      "mechanic": "逆流吸能，防御储能后出击",
+      "hp": 115,
+      "damage": 16,
+      "pollution": 4,
+      "reward_clean_core": 3
+    },
+    {
+      "floor": 81,
+      "guardian": false,
+      "name": "第81层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 79,
+      "damage": 16,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 82,
+      "guardian": false,
+      "name": "第82层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 79,
+      "damage": 16,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 83,
+      "guardian": false,
+      "name": "第83层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 79,
+      "damage": 16,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 84,
+      "guardian": false,
+      "name": "第84层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 79,
+      "damage": 16,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 85,
+      "guardian": false,
+      "name": "第85层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 79,
+      "damage": 16,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 86,
+      "guardian": false,
+      "name": "第86层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 79,
+      "damage": 16,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 87,
+      "guardian": false,
+      "name": "第87层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 79,
+      "damage": 16,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 88,
+      "guardian": false,
+      "name": "第88层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 79,
+      "damage": 16,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 89,
+      "guardian": false,
+      "name": "第89层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 79,
+      "damage": 16,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 90,
+      "guardian": true,
+      "name": "万象复制体",
+      "mechanic": "复制技能，交替普通攻击与防御",
+      "hp": 120,
+      "damage": 16,
+      "pollution": 4,
+      "reward_clean_core": 3
+    },
+    {
+      "floor": 91,
+      "guardian": false,
+      "name": "第91层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 82,
+      "damage": 16,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 92,
+      "guardian": false,
+      "name": "第92层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 82,
+      "damage": 16,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 93,
+      "guardian": false,
+      "name": "第93层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 82,
+      "damage": 16,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 94,
+      "guardian": false,
+      "name": "第94层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 82,
+      "damage": 16,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 95,
+      "guardian": false,
+      "name": "第95层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 82,
+      "damage": 16,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 96,
+      "guardian": false,
+      "name": "第96层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 82,
+      "damage": 16,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 97,
+      "guardian": false,
+      "name": "第97层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 82,
+      "damage": 16,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 98,
+      "guardian": false,
+      "name": "第98层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 82,
+      "damage": 16,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 99,
+      "guardian": false,
+      "name": "第99层污染巡猎者",
+      "mechanic": "独自完成当前层，击败后仅结算一次。",
+      "hp": 82,
+      "damage": 16,
+      "pollution": 2,
+      "reward_clean_core": 1
+    },
+    {
+      "floor": 100,
+      "guardian": true,
+      "name": "噬核母皇·终焉之核",
+      "mechanic": "收割蓄力，先防御破环再净化母核",
+      "hp": 125,
+      "damage": 17,
+      "pollution": 4,
+      "reward_clean_core": 3
+    }
+  ],
+  "detox_food": 2,
+  "detox_energy": 20,
+  "detox_amount": 15,
+  "approaches": {
+    "谨慎观察": {
+      "guard_energy_bonus": 2,
+      "first_hit_bonus": 0,
+      "attack_bonus": 0,
+      "incoming_bonus": 0,
+      "hint": "谨慎观察：防御恢复能量+2。"
+    },
+    "利用环境": {
+      "guard_energy_bonus": 0,
+      "first_hit_bonus": 2,
+      "attack_bonus": 0,
+      "incoming_bonus": 0,
+      "hint": "利用环境：每场战斗首次有效出手基础伤害+2。"
+    },
+    "正面突破": {
+      "guard_energy_bonus": 0,
+      "first_hit_bonus": 0,
+      "attack_bonus": 2,
+      "incoming_bonus": 1,
+      "hint": "正面突破：普通攻击基础伤害+2，但每次受击基础伤害+1。"
+    }
+  },
+  "story_nodes": {
+    "rival": {
+      "min_stage": 8,
+      "refuse_energy": 5,
+      "trade_material": 3,
+      "trade_food": 4,
+      "location": "要塞物资交涉站",
+      "note": "两个互斥选择：拒绝苛刻独家契约或只做等价小额交易；不泄露系统、不改修为，不强迫合作。"
+    },
+    "harvest": {
+      "min_stage": 24,
+      "energy": 8,
+      "clean_core": 2,
+      "location": "要塞临时议事厅",
+      "note": "拒绝牺牲平民，投入自身净核保存证据并选择独立研究路线；谢玄策仅知部分收割机制，不替代母皇终局。"
+    }
+  }
+}

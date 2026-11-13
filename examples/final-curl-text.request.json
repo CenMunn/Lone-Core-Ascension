@@ -1,0 +1,1 @@
+{"model": "deepseek-flash", "messages": [{"role": "user", "content": "用一句中文说明HTTP POST与GET的区别。"}], "max_tokens": 150, "thinking": {"type": "disabled"}}
